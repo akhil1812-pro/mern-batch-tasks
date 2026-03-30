@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>@import url(mini-blog.css);</style>
+    <title>mini-blog</title>
+</head>
+<body>
+    <h1>Mini-Blog</h1> <hr>
+    <h2>Jump to play: Building with Gemini & MediaPipe</h2>
+    <img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/jump_to_play_banner.original.png" alt="google blog img" width="650" height="300">
+    <p>Vibe-coding with Gemini makes it easier than ever to build highly interactive games and apps, leveraging the power of MediaPipe to unlock real-time input control. MediaPipe provides cross-platform, off-the-shelf ML solutions for vision, audio, and language optimized for real-time on-device performance.
+    To illustrate what you can build with MediaPipe, we are introducing a new showcase gallery in Google AI Studio. Recently updated with the Antigravity agent, Google AI Studio is the perfect tool for quickly going from a "what if" idea to a polished, playable experience.</p>
+    <p>In this blog, we will share fun and simple ways to build apps that interact with the physical world by combining Gemini intelligence with MediaPipe's real-time sensing capabilities.</p>
+    <hr><p>Prompt naturally in AI Studio
+Visit AI Studio and simply describe your idea in natural language. Make sure to mention the MediaPipe capability you want in the mechanics of your app, for example, MediaPipe’s face, hand or pose tracking, or segmentation, etc. For the example below, we recommend selecting Gemini 3.1 Pro from the settings menu. <br>
+<br>
+
+Example 1: Chrome dino game <br> 
+<br>
+Build a motion-controlled version of the classic Chrome Dino game using MediaPipe Pose Landmarker to transform user physical jumps into in-game actions. <br>
+
+- Replicate the original 8-bit Chrome Dino aesthetic for user interface and game objects. <br>
+- Implement a robust jump detection in spite of player distance to the camera. Also support pressing space bar to jump as fallback. <br>
+- Jumps should be at least twice as high as the obstacles. <br>
+- Include a secondary panel below the game for debugging and feedback, featuring live camera feed with pose landmarks overlay.</p>
+<video width="500" height="400" controls autoplay loop src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/image7_1.mp4">  </video>
+<p>AI Studio generates a fully functional web app in minutes. Even with a simple prompt, Gemini is capable of adding details around your concept to make it more complete, such as: <br>
+<br>
+Contextual logic: It understands the core mechanics of a side-scroller, like how gravity should affect the Dino's jump. <br>
+Hardware initialization: It writes the complex logic needed to initialize a device webcam and prepare it for motion tracking. <br>
+Edge case intelligence: It can suggest adding things like a "calibration" phase at the start to ensure the camera recognizes your neutral standing height before the game begins.</p>
+<hr> <p>Click on the link given below to read more about Vibe coding with Gemini 👾 </p><a href="https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/"> Read More!</a>
+</html>
