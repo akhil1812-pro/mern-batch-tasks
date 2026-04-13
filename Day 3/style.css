@@ -2,15 +2,12 @@ html{
     background-color: bisque;
 }
 
+
 .box1{
     color: green;
     font-size: 24px;
 }
 
-
-.box1{
-    color: green;
-}
 
 #ok{
     color: peru;
@@ -18,7 +15,7 @@ html{
 }
 
 .cards{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     border-style: groove; color: cadetblue;
     padding: 20px;
