@@ -1,0 +1,27 @@
+html{
+    background-color: bisque;
+}
+
+.box1{
+    color: green;
+    font-size: 24px;
+}
+
+
+.box1{
+    color: green;
+}
+
+#ok{
+    color: peru;
+    font-size: 24px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    border-style: groove; color: cadetblue;
+    padding: 20px;
+    margin: 40px;
+    font-size: 24px;
+}
