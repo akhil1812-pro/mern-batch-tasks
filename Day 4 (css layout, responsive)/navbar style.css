@@ -1,88 +1,85 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color:#d4edf4;
-    border-style:groove;
-    border-color: #088F8F;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #d4edf4;
+  border-style: groove;
+  border-color: #088f8f;
+  justify-content: space-between;
 }
 
-.OGmenu{
-    display: flex;
-    gap: 20px;
-    
+.OGmenu {
+  display: flex;
+  gap: 20px;
 }
-.menu{
-    display: flex;
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.menu p {
+  transition: 0.7s;
+}
+.menu p:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.menu video {
+  border-style: solid;
+  border-color: black;
+}
+
+.OGcards {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: row;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  width: 100%;
+  border-style: groove;
+  border-color: #088f8f;
+  justify-content: space-between;
+}
+
+.Cards {
+  transition: 0.7s;
+}
+
+.Cards:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+body {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .navbar {
     flex-direction: column;
-    padding: 20px;
-    align-items: center;
-    
-}
+  }
 
-.menu p{
-    transition: 0.7s;
-}
-.menu p:hover{
-    background-color: lightgreen;
-    cursor: pointer;
-}
-.menu video{
-    border-style:solid;
-    border-color:black;
-}
+  .OGmenu {
+    flex-direction: column;
+  }
 
-.OGcards{
-    display:flex;
-    gap: 50px;
-    width: 100%;
-}
-
-.Cards{
-    display: flex;
-    flex-direction: row;
-    background-color:lightskyblue;
-    border-radius: 10px;
-    width: 100%;
-    border-style:groove;
-    border-color: #088F8F;
-    justify-content: space-between;
-}
-
-.Cards{
-    transition: 0.7s;
-}
-
-.Cards:hover{
-    background-color: lightgreen;
-    cursor: pointer;
-}
-
-
-body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-@media (max-width: 768px){
-
-    .navbar{
-        flex-direction: column;
-    
-    }
-    
-    .OGmenu{
-        flex-direction: column;
-    }
-
-    .OGcards{
-        flex-direction: column;
-    }
+  .OGcards {
+    flex-direction: column;
+  }
 }

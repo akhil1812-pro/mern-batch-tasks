@@ -1,16 +1,15 @@
-p{
-    text-align: center;
-    font-size: 18px;
+p {
+  text-align: center;
+  font-size: 18px;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-body{
-    background-color:saddlebrown;
-    font-display: block;
-    color:wheat;
-    font-family: cursive;
-    text-align: center;
-
+body {
+  background-color: saddlebrown;
+  font-display: block;
+  color: wheat;
+  font-family: cursive;
+  text-align: center;
 }

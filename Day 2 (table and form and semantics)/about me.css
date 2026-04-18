@@ -1,73 +1,73 @@
-body{
-    color:white;
-    background-color:#dc8b35;
-    scroll-behavior: smooth;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+body {
+  color: white;
+  background-color: #dc8b35;
+  scroll-behavior: smooth;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-iframe{
-    margin-left:20%;
-    margin-bottom: 0%;  
+iframe {
+  margin-left: 20%;
+  margin-bottom: 0%;
 }
-h3{
-    margin: 0%;
-    margin-right: 0%;
-    margin-bottom: 50%;
+h3 {
+  margin: 0%;
+  margin-right: 0%;
+  margin-bottom: 50%;
 }
-img{
-    margin-bottom: 0%;
-    margin: 0%;
+img {
+  margin-bottom: 0%;
+  margin: 0%;
 }
-p{
-    margin-left: 54%;
-    margin-bottom: 0%;
-    margin-top: 0%;
-    font-size:110%;
+p {
+  margin-left: 54%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  font-size: 110%;
 }
 
 #about {
-    margin:auto;
-    font-size: 125%;
+  margin: auto;
+  font-size: 125%;
 }
-#ul{
-    margin: 0%;
-    font-size: 16px;
+#ul {
+  margin: 0%;
+  font-size: 16px;
 }
-ul{
-    font-size: 110%;
+ul {
+  font-size: 110%;
 }
-ol{
-    font-size: 110%;
+ol {
+  font-size: 110%;
 }
-table{
-    font-size: 110%;
+table {
+  font-size: 110%;
 }
-form{
-    font-size: 110%;
+form {
+  font-size: 110%;
 }
-footer{
-    font-size: 110%;
+footer {
+  font-size: 110%;
 }
-h3{
-    margin: 0%;
+h3 {
+  margin: 0%;
 }
-table{
-    border-color: black;
+table {
+  border-color: black;
 }
-header{
-    font-size: 150%;
-}
-
-a{
-    color:lightgreen;
+header {
+  font-size: 150%;
 }
 
-#dsa{
-    color: brown;
+a {
+  color: lightgreen;
 }
-#Java{
-    color: #04536f;
+
+#dsa {
+  color: brown;
+}
+#Java {
+  color: #04536f;
 }
