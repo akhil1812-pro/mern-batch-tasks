@@ -25,8 +25,16 @@ body{
     flex-direction: column;
     padding: 20px;
     align-items: center;
-}
     
+}
+
+.menu p{
+    transition: 0.7s;
+}
+.menu p:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
 .menu video{
     border-style:solid;
     border-color:black;
@@ -47,6 +55,15 @@ body{
     border-style:groove;
     border-color: #088F8F;
     justify-content: space-between;
+}
+
+.Cards{
+    transition: 0.7s;
+}
+
+.Cards:hover{
+    background-color: lightgreen;
+    cursor: pointer;
 }
 
 
