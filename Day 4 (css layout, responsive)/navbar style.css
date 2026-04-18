@@ -2,6 +2,9 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    overflow-x: hidden;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -39,6 +42,7 @@ html{
     display: flex;
     flex-direction: row;
     background-color:lightskyblue;
+    border-radius: 10px;
     width: 100%;
     border-style:groove;
     border-color: #088F8F;
