@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tailwind task</title>
+  </head>
+  <body class="bg-gray-100">
+    <header class="p-4">
+      <p class="underline text-lg font-bold">Tailwind Task</p>
+    </header>
+
+    <main>
+      <!-- Navbar -->
+      <div class="container mx-auto border p-4">
+        <div
+          class="flex flex-col md:flex-row items-center md:items-start justify-between gap-4"
+        >
+          <!-- Logo -->
+          <div class="bg-yellow-400 p-2 rounded text-center md:text-left">
+            <p class="font-bold">Logo</p>
+          </div>
+
+          <!-- Menu items -->
+          <div class="flex flex-col md:flex-row gap-4 text-center md:text-left">
+            <div class="bg-blue-500 text-white p-2 rounded">About</div>
+            <div class="bg-green-500 text-white p-2 rounded">Projects</div>
+            <div class="bg-red-500 text-white p-2 rounded">Contact</div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 text-center md:text-start"
+      >
+        <div class="bg-white shadow-md rounded p-4">
+          <h3 class="text-xl font-bold mb-2">Card 1</h3>
+          <p class="text-gray-600">Responsive card content goes here.</p>
+        </div>
+
+        <div class="bg-white shadow-md rounded p-4">
+          <h3 class="text-xl font-bold mb-2">Card 2</h3>
+          <p class="text-gray-600">Responsive card content goes here.</p>
+        </div>
+
+        <div class="bg-white shadow-md rounded p-4">
+          <h3 class="text-xl font-bold mb-2">Card 3</h3>
+          <p class="text-gray-600">Responsive card content goes here.</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
