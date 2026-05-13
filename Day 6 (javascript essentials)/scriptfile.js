@@ -1,5 +1,5 @@
 function showAlert() {
-  alert("hello");
+  alert("hello THIS IS TESTING ON BUTTON");
 }
 
 let name = "Akhil";
@@ -16,10 +16,13 @@ let yourage = prompt("Enter your age");
 alert("Hey, " + yourname);
 alert("Your Age is " + yourage);
 
-let agenew = 20;
-
-if (agenew >= 18) {
-  console.log("You are Eligible for Vote");
+if (yourage >= 18) {
+  alert("You are Eligible for Vote");
 } else {
-  console.log("You are not Eligible for Vote");
+  alert("You are not Eligible for Vote");
+}
+
+
+for(let i = 1; i<=10; i++){
+  alert("printing numbers to study for loop - " + i)
 }
