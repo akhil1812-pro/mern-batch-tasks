@@ -16,14 +16,12 @@ function reset() {
 }
 
 function upperCase() {
-let inputname = document.getElementById("textInput").value;
- if (inputname == "") {
+  let inputname = document.getElementById("textInput").value;
+  if (inputname == "") {
     document.getElementById("output").innerText =
       "Please enter your name above...";
     return;
-
-
-}
-    document.getElementById("output").innerText = "Hello" + " " + inputname.toUpperCase();
-
+  }
+  document.getElementById("output").innerText =
+    "Hello" + " " + inputname.toUpperCase();
 }
