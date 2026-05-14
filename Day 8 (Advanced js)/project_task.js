@@ -25,3 +25,18 @@ function upperCase() {
   document.getElementById("output").innerText =
     "Hello" + " " + inputname.toUpperCase();
 }
+
+document
+  .getElementById("textInput")
+  .addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      if (event.shiftKey) {
+        upperCase();
+      } else {
+        submitting();
+      }
+    }
+    if (event.key === "Escape") {
+      reset();
+    }
+  });
